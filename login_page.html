@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,12 +19,16 @@
       <div id="login" class="row justify-content-center align-items-center">
         <div class="col-md-8 bg-danger shadow">
           <div class="row rounded">
-            <div class="col-md-6 text-center bg_img d-none d-md-block">
-              <div class="resturent-img">
-                <img src="./assets/img/restaurant.png" class="img-fluid restaurant-img" alt="restaurant">
+            <!-- img -->
+            <div class="col-md-6 bg_img">
+              <div class="text-center d-none d-md-block">
+                <div class="resturent-img">
+                  <img src="./assets/img/restaurant.png" class="img-fluid restaurant-img" alt="restaurant">
+                </div>
               </div>
             </div>
-            <div class="col-md-6 bg-light">
+            <!-- form data -->
+            <div class="col-md-6 bg-light" data-aos="zoom-in-up">
               <div class="logo">
                 <img src="assets/img/logo.png" class="img-fluid" alt="">
               </div>
@@ -41,9 +46,10 @@
                     </div>
                     <div class="form-outline w-75 mt-4 m-auto">
                       <div class="">
-                        <a href="" class="btn btn-danger w-100">Sign in</a>
+                        <a href="./index.html" class="btn btn-danger w-100">Sign in</a>
                       </div>
                     </div>
+                    
                   </div>
                 </form>
               </div>
@@ -53,6 +59,14 @@
       </div>
     </div>
   </div>
+
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="assets/bootstrap/js/mdb.min.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
+
 </html>
