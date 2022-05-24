@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#login{
+  height: 100vh;
+  border-radius: 30px;
+}
+
+.bg_img{
+  background:linear-gradient(to right,#F54760,#F5856F);
+}
+.resturent-img{
+  margin: 50px 0px;
+}
+.mainset{
+  border-radius: 10px !important;
+}
+.logo{
+  text-align: center;
+  margin-top: 76px;
+}
+.logo img{
+  width: 150px;
+  transition: all 0.3s;
+}
