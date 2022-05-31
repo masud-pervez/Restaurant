@@ -1,0 +1,34 @@
+:root{
+  --color-primary:#5777ba;
+  --color-primary-variant: #748ec6;
+  --color-white:#fff;
+  --color-text:#585a61;
+  --color-bg:rgba(255, 255, 255, 0.95);
+  --shadow:rgba(0, 0, 0, 0.1);
+  --color-gray:#6c757d;
+}
+
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #585a61;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #7b94c9;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+/* HERO */
+.hero{
+  background-image: url('/assets/img/event/about.jpg');
+}
