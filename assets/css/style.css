@@ -32,3 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 .hero{
   background-image: url('/assets/img/event/about.jpg');
 }
+
+#about{
+  background:linear-gradient(to right,#F54760,#F5856F);;
+}
